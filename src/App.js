@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Order from "./components/Order";
 
 export const ThemeContext = createContext(null);
 
@@ -25,7 +26,7 @@ function App() {
         </header>
 
         <main className="container mt-4">
-          <h1>Hi</h1>
+          <Order />
         </main>
         <Footer />
       </ThemeContext.Provider>
