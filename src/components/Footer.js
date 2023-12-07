@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer
-      className={`fixed-bottom mt-auto py-3 text-center ${
+      className={`mt-auto py-3 text-center ${
         theme ? "bg-dark text-white" : "bg-secondary-subtle text-black"
       }`}
     >

@@ -25,7 +25,7 @@ function App() {
           <Navbar />
         </header>
 
-        <main className="container mt-4">
+        <main className="container my-4">
           <Order />
         </main>
         <Footer />

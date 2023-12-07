@@ -1,8 +1,8 @@
 const Button = (props) => {
-  const { children } = props;
+  const { children, type = "info" } = props;
 
   return (
-    <button className="btn btn-info shadow" {...props}>
+    <button className={`btn btn-${type} shadow`} {...props}>
       {children}
     </button>
   );
